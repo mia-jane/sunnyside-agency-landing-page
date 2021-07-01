@@ -75,6 +75,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
 .show {display: flex;}
 .header-nav-links {
   color: hsl(232, 10%, 55%);
