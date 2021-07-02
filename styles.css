@@ -468,4 +468,19 @@ body {
     display: flex;
     justify-content: space-between;
   }
+  .learn-more-container:hover {cursor: pointer;}
+  .learn-more-container:hover #yellow-underline {
+    background-color: hsl(51, 100%, 49%); 
+  }
+  .learn-more-container:hover #pink-underline {
+    background-color: hsl(7, 99%, 70%);
+  }
+  .footer-nav-bar > span:hover {
+    color: white;
+    cursor: pointer;
+  }
+  .social-media-logo:hover {
+    filter: brightness(0) saturate(100%) invert(98%) sepia(28%) saturate(0%) hue-rotate(15deg) brightness(108%) contrast(101%);
+    cursor: pointer;
+  }
 }
