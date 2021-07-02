@@ -15,7 +15,7 @@
 </head>
 <body>
   <div class="header">
-    <img class="header-image" src='./images/mobile/image-header.jpg'/>
+    <!-- <img class="header-image" src='./images/mobile/image-header.jpg'/> -->
     <div class="navbar">
       <div class="header-logo-container">
         <img class="header-logo" src="./images/logo.svg" />
@@ -41,68 +41,78 @@
       <img class="down-arrow" src="./images/icon-arrow-down.svg" />
     </div>
   </div>
-  <div class="standalone-image-section">
-    <img class="standalone-image" src="./images/mobile/image-transform.jpg">
-  </div>
-  <div class="marketing-content-section">
-    <h2 class="heading1">Transform your brand</h2>
-    <p class="marketing-description">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
-    <div class="learn-more-container">
-      <h3 class="learn-more-text">LEARN MORE</h3>
-      <div class="learn-more-underline" id="yellow-underline"></div>
-    </div>
-  </div>
-  <div class="standalone-image-section">
-    <img class="standalone-image" src="./images/mobile/image-stand-out.jpg" />
-  </div>
-  <div class="marketing-content-section">
-    <h2 class="heading1">Stand out to the right audience</h2>
-    <p class="marketing-description">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
-    <div class="learn-more-container">
-      <h3 class="learn-more-text">LEARN MORE</h3>
-      <div class="learn-more-underline" id="pink-underline"></div>
-    </div>
-  </div>
-  <div class="background-image-section">
-    <img class="background-image" src="./images/mobile/image-graphic-design.jpg" />
-    <div class="title-and-description-box" id="graphic-design-text" >
-      <h2 class="heading2">Graphic design</h2>
-      <p class="marketing-description-style2">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
-    </div>
-  </div>
-  <div class="background-image-section">
-    <img class="background-image" src="./images/mobile/image-photography.jpg" />
-    <div class="title-and-description-box" id="photography-text" >
-      <h2 class="heading2">Photography</h2>
-      <p class="marketing-description-style2">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
-    </div>
+  <div class="marketing-grid" >
+      <div class="standalone-image-section" id="egg-img" >
+        <img class="standalone-image" src="./images/mobile/image-transform.jpg">
+      </div>
+      <div class="marketing-content-section" id="transform-section" >
+        <div class="content-box">
+          <h2 class="heading1">Transform your brand</h2>
+          <p class="marketing-description">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <span class="learn-more-container">
+            <h3 class="learn-more-text">LEARN MORE</h3>
+            <div class="learn-more-underline" id="yellow-underline"></div>
+          </span>
+        </div>
+      </div>
+      <div class="standalone-image-section" id="cup-img" >
+        <img class="standalone-image" src="./images/mobile/image-stand-out.jpg" />
+      </div>
+      <div class="marketing-content-section" id="stand-out-section" >
+        <div class="content-box">
+          <h2 class="heading1">Stand out to the right audience</h2>
+          <p class="marketing-description">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+          <div class="learn-more-container">
+            <h3 class="learn-more-text">LEARN MORE</h3>
+            <div class="learn-more-underline" id="pink-underline"></div>
+          </div>
+        </div>
+      </div>
+      <div class="background-image-section" id="cherries" >
+        <!-- <img class="background-image" src="./images/mobile/image-graphic-design.jpg" /> -->
+        <div class="title-and-description-box" id="graphic-design-text" >
+          <h2 class="heading2">Graphic design</h2>
+          <p class="marketing-description-style2">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        </div>
+      </div>
+      <div class="background-image-section" id="orange-photography" >
+        <!-- <img class="background-image" src="./images/mobile/image-photography.jpg" /> -->
+        <div class="title-and-description-box" id="photography-text" >
+          <h2 class="heading2">Photography</h2>
+          <p class="marketing-description-style2">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </div>
+      </div>
   </div>
   <div class="testimonials-section">
-    <h3 class="testimonials-heading">CLIENT TESTIMONIALS</h3>
-      <div class="client-testimonial-container">
-        <img class="client-profile-image" src="./images/image-emily.jpg"/>
-        <p class="testimonial">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
-        <div class="client-info">
-          <h5 class="client-name">Emily R.</h5>
-          <p class="client-title">Marketing Director</p>
+    <div class="testimonials-section-content">
+      <h3 class="testimonials-heading">CLIENT TESTIMONIALS</h3>
+      <div class="testimonials-area" >
+        <div class="client-testimonial-container">
+          <img class="client-profile-image" src="./images/image-emily.jpg"/>
+          <p class="testimonial">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <div class="client-info">
+            <h5 class="client-name">Emily R.</h5>
+            <p class="client-title">Marketing Director</p>
+          </div>
+        </div>
+        <div class="client-testimonial-container">
+          <img class="client-profile-image" src="./images/image-thomas.jpg" />
+          <p class="testimonial">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+          <div class="client-info">
+            <p class="client-name">Thomas S.</p>
+            <p class="client-title">Chief Operating Officer</p>
+          </div>
+        </div>
+        <div class="client-testimonial-container">
+          <img class="client-profile-image" src="./images/image-jennie.jpg" />
+          <p class="testimonial">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <div class="client-info">
+            <p class="client-name">Jennie F.</p>
+            <p class="client-title">Business Owner</p>
+          </div>
         </div>
       </div>
-      <div class="client-testimonial-container">
-        <img class="client-profile-image" src="./images/image-thomas.jpg" />
-        <p class="testimonial">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
-        <div class="client-info">
-          <p class="client-name">Thomas S.</p>
-          <p class="client-title">Chief Operating Officer</p>
-        </div>
-      </div>
-      <div class="client-testimonial-container">
-        <img class="client-profile-image" src="./images/image-jennie.jpg" />
-        <p class="testimonial">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-        <div class="client-info">
-          <p class="client-name">Jennie F.</p>
-          <p class="client-title">Business Owner</p>
-        </div>
-      </div>
+    </div>
   </div>
   <div class="image-4square-container">
     <img class="grid-image" src="./images/mobile/image-gallery-milkbottles.jpg" />
@@ -111,19 +121,23 @@
     <img class="grid-image" src="./images/mobile/image-gallery-sugar-cubes.jpg" />
   </div>
   <div class="footer">
-    <div class="footer-logo-container">
-      <img class="footer-logo" src="./images/logo.svg" />
-    </div>
-    <div class="footer-nav-bar">
-      <span>About</span>
-      <span>Services</span>
-      <span>Projects</span>
-    </div>
-    <div class="social-media-logos-container">
-      <img class="social-media-logo" src="images/icon-facebook.svg" />
-      <img class="social-media-logo" src="images/icon-instagram.svg" />
-      <img class="social-media-logo" src="images/icon-twitter.svg" />
-      <img class="social-media-logo" src="images/icon-pinterest.svg" />
+    <div class="footer-contents-container">
+      <div class="footer-logo-navbar-container">
+        <div class="footer-logo-container">
+          <img class="footer-logo" src="./images/logo.svg" />
+        </div>
+        <div class="footer-nav-bar">
+          <span>About</span>
+          <span>Services</span>
+          <span>Projects</span>
+        </div>
+      </div>
+      <div class="social-media-logos-container">
+        <img class="social-media-logo" src="images/icon-facebook.svg" />
+        <img class="social-media-logo" src="images/icon-instagram.svg" />
+        <img class="social-media-logo" src="images/icon-twitter.svg" />
+        <img class="social-media-logo" src="images/icon-pinterest.svg" />
+      </div>
     </div>
   </div>
 
