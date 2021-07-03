@@ -290,9 +290,15 @@ body {
   grid-template-columns: 50% 50%;
 }
 .grid-image {
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 187.5px;
   height: 187.5px;
 }
+#milkbottles {background-image: url(./images/mobile/image-gallery-milkbottles.jpg);}
+#orange {background-image: url(./images/mobile/image-gallery-orange.jpg);}
+#cone {background-image: url(./images/mobile/image-gallery-cone.jpg);}
+#sugarcubes {background-image: url(./images/mobile/image-gallery-sugar-cubes.jpg);}
 .footer {
  height: 350px;
  width: 375px;
@@ -359,6 +365,16 @@ body {
     color: white;
     background-color: rgb(255,255,255, 0.2);
   }
+  .title {
+    font-size: 60px;
+  }
+  .down-arrow-container {
+    top: 60px;
+    height: 15%;
+  }
+  .down-arrow {
+    height: 100%;
+  }
   .marketing-grid {
     display: grid;
     width: 1440px;
@@ -396,11 +412,6 @@ body {
   }
   #cherries {background-image: url(./images/desktop/image-graphic-design.jpg);}
   #orange-photography {background-image: url(./images/desktop/image-photography.jpg);}
-  /* .background-image {
-  position: absolute; top: 0; left: 0; z-index:1;
-  width: 100%;
-  height: 600px;
-  } */
   .title-and-description-box {
     width: 48%;
     height: 24%;
@@ -452,6 +463,10 @@ body {
     width: 100%;
     height: 100%;
   }
+  #milkbottles {background-image: url(./images/desktop/image-gallery-milkbottles.jpg);}  
+  #orange {background-image: url(./images/desktop/image-gallery-orange.jpg);}  
+  #cone {background-image: url(./images/desktop/image-gallery-cone.jpg);}  
+  #sugarcubes {background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);} 
   .footer {
     height: 490px;
     width: 1440px;
