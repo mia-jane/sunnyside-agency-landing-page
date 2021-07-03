@@ -357,6 +357,9 @@ body {
   .header-nav-links {
     color: white;
   }
+  .header-nav-links:hover {
+    cursor: pointer;
+  }
   .contact {
     background-color: #ffffff;
   }
